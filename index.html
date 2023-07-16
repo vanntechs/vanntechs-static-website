@@ -1,10 +1,1161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Cool Website</title>
+    <meta charset="UTF-8">
+    <title>Home || Vanntechs</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<h1>Welcome to my website! ⭐️</h1>
-<p>How was your day? 🎉</p>
+
+<!--Start Preloader -->
+<div class="preloader"></div>
+<!--End Preloader -->
+
+<!--Start Top bar area -->
+<!--<section class="top-bar-area">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12">-->
+<!--                <div class="flex-box-three">-->
+<!--                    <div class="top-left clearfix">-->
+<!--                        <p>Vanntechs Web Studio, your assistant to web design and issues solving.</p>-->
+<!--                    </div>-->
+<!--                    <div class="top-right clearfix">-->
+<!--                        <ul class="top-menu float-left">-->
+<!--                            <li><a href="#">Get Support</a></li>-->
+<!--                            <li><a href="#">Feedbacks</a></li>-->
+<!--                        </ul>-->
+<!--                        <div class="language-switcher float-right">-->
+<!--                            <div id="polyglotLanguageSwitcher">-->
+<!--                                <form action="#">-->
+<!--                                    <select id="polyglot-language-options">-->
+<!--                                        <option id="en" value="en" selected>English</option>-->
+<!--                                        <option id="fr" value="fr">French</option>-->
+<!--                                    </select>-->
+<!--                                </form>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--End Top bar area -->
+
+<!--Start header area-->
+<header class="header-area">
+    <!--Start header upper-->
+    <div class="header-upper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner-content">
+                        <div class="flex-box-three">
+                            <div class="header-upper-left clearfix">
+                                <div class="state-box">
+                                    <div class="state-content float-right">
+                                        <!--Start single state-->
+                                        <div class="state" id="value1">
+                                            <ul class="clearfix">
+                                                <li>
+                                                    <div class="icon-box">
+                                                        <span class="flaticon-technology"></span>
+                                                    </div>
+                                                    <div class="text-box">
+                                                        <p>+123-456-7890 & 23</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon-box">
+                                                        <span class="flaticon-note"></span>
+                                                    </div>
+                                                    <div class="text-box">
+                                                        <p>vanessa@vanntechs.com</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--End single state-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-upper-right clearfix">
+                                <p>Stay Connected:</p>
+                                <ul class="sociallinks-style-one">
+                                    <li><a href="https://www.facebook.com/vanntechs/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <!-- Will add instagram here later -->
+                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End header upper-->
+    <!--Start header lawer-->
+    <div class="header-lower">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-lawer-content clearfix">
+                        <div class="header-lower-left">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="images/resources/logo.png" alt="Awesome Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-lower-right clearfix">
+                            <nav class="main-menu clearfix">
+                                <div class="navbar-header clearfix">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="index.html">Home</a></li>
+                                        <li class="dropdown"><a href="about.html">About Us</a>
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="project.html">Projects</a></li>
+                                                <li><a href="faq.html">FAQ’s</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="packages-pricing.html">Packages & Pricing</a>
+                                        </li>
+<!--                                        <li><a href="blog.html">Blog</a>-->
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+<!--                            <div class="mainmenu-middle clearfix">-->
+<!--                                <ul class="clearfix">-->
+<!--                                    <li>-->
+<!--                                        <div class="outer-search-box">-->
+<!--                                            <div class="seach-toggle"><i class="fa fa-search"></i></div>-->
+<!--                                            <ul class="search-box">-->
+<!--                                                <li>-->
+<!--                                                    <form method="post" action="index.html">-->
+<!--                                                        <div class="form-group">-->
+<!--                                                            <input type="search" name="search" placeholder="Search Here" required>-->
+<!--                                                            <button type="submit"><i class="fa fa-search"></i></button>-->
+<!--                                                        </div>-->
+<!--                                                    </form>-->
+<!--                                                </li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
+<!--                                    </li>-->
+
+<!--                                </ul>-->
+<!--                            </div>-->
+                            <!--Start mainmenu right box-->
+                            <div class="mainmenu-right-box clearfix">
+                                <a class="thm-btn" href="#">Free Enquiry</a>
+                            </div>
+                            <!--End mainmenu right box-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End header lawer-->
+    <!---Start sticky header-->
+    <div class="sticky-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="left-colum pull-left">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/resources/logo-2.png" alt="Vanntechs Web Studio Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-colum pull-right">
+                        <nav class="main-menu clearfix">
+                            <div class="navbar-header clearfix">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="about.html">About Us</a>
+                                        <ul>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="project.html">Projects</a></li>
+                                            <li><a href="faq.html">FAQ’s</a></li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="packages-pricing.html">Package & Pricing</a>
+                                    </li>
+                                    <li><a href="blog.html">Blog</a>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---End sticky header-->
+</header>
+<!--End header area-->
+
+<!--Start rev slider wrapper-->
+<section class="rev_slider_wrapper">
+    <div id="slider1" class="rev_slider"  data-version="5.0">
+        <ul>
+            <li data-transition="fade">
+                <img src="images/slides/1.jpg"  alt="" width="1920" height="700" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+
+                <div class="tp-caption  tp-resizeme"
+                     data-x="left" data-hoffset="0"
+                     data-y="top" data-voffset="370"
+                     data-transform_idle="o:1;"
+                     data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                     data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                     data-splitin="none"
+                     data-splitout="none"
+                     data-responsive_offset="on"
+                     data-start="700">
+
+                    <div class="slide-content left-slide">
+                        <div class="title">Creative and Passionate</div>
+                        <div class="big-title">Website Design and Branding</div>
+                        <div class="text">We believe good website design has the ability to impact the way your clients feel.</div>
+                        <div class="btns-box">
+                            <a href="#" class="thm-btn pdone">See portfolios</a>&ensp;
+                            <a href="contact.html" class="thm-btn btn-style-two pdtwo">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-transition="fade">
+                <img src="images/slides/2.jpg" alt="" width="1920" height="700" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+
+                <div class="tp-caption  tp-resizeme"
+                     data-x="right" data-hoffset="0"
+                     data-y="top" data-voffset="370"
+                     data-transform_idle="o:1;"
+                     data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                     data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                     data-splitin="none"
+                     data-splitout="none"
+                     data-responsive_offset="on"
+                     data-start="1500">
+
+                    <div class="slide-content right-slide">
+                        <div class="title">Web Design, Website Development &</div>
+                        <div class="big-title">Website maintenance</div>
+                        <div class="text">Whether you want to set up your online store, your content website, or increases your visibility, or fix errors that your website has.
+                        <br>
+                        We can consult and work together with you, so you can focus on your core business</div>
+                        <div class="btns-box">
+                            <a href="about.html" class="thm-btn pdone">See our services</a>&ensp;
+                            <a href="contact.html" class="thm-btn btn-style-two pdtwo">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-transition="fade">
+                <img src="images/slides/3.jpg"  alt="" width="1920" height="700" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+
+                <div class="tp-caption  tp-resizeme"
+                     data-x="left" data-hoffset="0"
+                     data-y="top" data-voffset="370"
+                     data-transform_idle="o:1;"
+                     data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                     data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                     data-splitin="none"
+                     data-splitout="none"
+                     data-responsive_offset="on"
+                     data-start="1500">
+
+                    <div class="slide-content left-slide">
+                        <div class="title">Our main focus</div>
+                        <div class="big-title">HTML, Wordpress
+                            <br>
+                            Shopify
+                        <br>
+                            (React, Angular, PHP)
+                        </div>
+                        <div class="text">There's nothing wrong with starting a very small task such as changing the color, the label, or
+                            upload a blog post. We can do everything for you.</div>
+                        <div class="btns-box">
+                            <a href="about.html" class="thm-btn pdone">Read More</a>&ensp;
+                            <a href="contact.html" class="thm-btn btn-style-two pdtwo">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!--End rev slider wrapper-->
+
+<!--Start call to action area-->
+<section class="callto-action-area sec-pd-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <div class="callto-action-imgbox">
+                    <img src="images/resources/callto-action-image.jpg" alt="Vanessa Tran">
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <div class="callto-action-text">
+                    <div class="title">
+                        <span>Introducing</span>
+                        <h1>Vanntechs Web Studio Virtual DD Service</h1>
+                    </div>
+                    <div class="text-holder">
+                        <p>Our team has more than 10 years working in the IT industry with the latest web development technologies.
+                        We know there are a lot of challenges to keep any IT projects in a good timeline. Our Virtual DD (Design and Development) Service allows our clients
+                            to tailor the process to the best experiences.
+                        </p>
+                        <ul>
+                            <li><i class="fa fa-caret-right" aria-hidden="true"></i> Discuss about the project requirements and the content</li>
+                            <li><i class="fa fa-caret-right" aria-hidden="true"></i> Develop the concept of designs</li>
+                            <li><i class="fa fa-caret-right" aria-hidden="true"></i> Implement the design in the website development and get feedbacks</li>
+                        </ul>
+                        <div class="founder-text">
+                            <p>We don't love automatic AI Robots when talking to our clients. You will communicate with us - our professional and friendly human beings team members.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End call to action area-->
+
+<!--Start fact counter area-->
+<section class="fact-counter-area sec-pd-one" style="background-image:url(images/resources/fact-counter-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li class="single-fact-counter text-center">
+                        <div class="icon-holder">
+                            <span class="flaticon-pen"></span>
+                        </div>
+                        <div class="count-box">
+                            <h1><span class="timer" data-from="1" data-to="12" data-speed="5000" data-refresh-interval="50">2745</span></h1>
+                            <div class="overlay-title">
+                                <h3>Projects</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="single-fact-counter text-center">
+                        <div class="icon-holder">
+                            <span class="flaticon-people"></span>
+                        </div>
+                        <div class="count-box">
+                            <h1><span class="timer" data-from="1" data-to="100" data-speed="5000" data-refresh-interval="50">389</span></h1>
+                            <div class="overlay-title">
+                                <h3>Passion</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="single-fact-counter text-center">
+                        <div class="icon-holder">
+                            <span class="flaticon-smile"></span>
+                        </div>
+                        <div class="count-box">
+                            <h1><span class="timer" data-from="1" data-to="100" data-speed="5000" data-refresh-interval="50">99</span></h1>
+                            <div class="overlay-title">
+                                <h3>Customer Oriented</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="single-fact-counter text-center">
+                        <div class="icon-holder">
+                            <span class="flaticon-medal"></span>
+                        </div>
+                        <div class="count-box">
+                            <h1><span class="timer" data-from="1" data-to="100" data-speed="5000" data-refresh-interval="50">172</span></h1>
+                            <div class="overlay-title">
+                                <h3>Dedication</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End fact counter area-->
+
+<!--Start services area-->
+<section class="services-area">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sec-title text-center">
+                        <span class="color-2">What We Do</span>
+                        <div class="border center color-2"></div>
+                        <h1>Our Main Services</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <!--Start single service item-->
+            <div class="single-service-item">
+                <div class="icon-holder">
+                    <span class="flaticon-arrow"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-arrow"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Business Growth</a></h3>
+                    <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+            <!--Start single service item-->
+            <div class="single-service-item bg-one">
+                <div class="icon-holder">
+                    <span class="flaticon-business"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-business"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Sustainability</a></h3>
+                    <p>The great explorer of the truth, the master-builder of human happiness no one rejects, dislikes, or avoids pleasure itself pleasure.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+            <!--Start single service item-->
+            <div class="single-service-item">
+                <div class="icon-holder">
+                    <span class="flaticon-idea-2"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-idea-2"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Performance</a></h3>
+                    <p>There anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+        </div>
+        <div class="flex">
+            <!--Start single service item-->
+            <div class="single-service-item bg-one">
+                <div class="icon-holder">
+                    <span class="flaticon-chart"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-chart"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Advanced Analytics</a></h3>
+                    <p>System and expound the actual teachings of the great explorer of the truth, the master-builder of human seds happiness.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+            <!--Start single service item-->
+            <div class="single-service-item">
+                <div class="icon-holder">
+                    <span class="flaticon-business-1"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-business-1"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Customer Insights</a></h3>
+                    <p>Ever under laborious physical exercise, except to obtain some advantage from it but who has any right to find fault with a man.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+            <!--Start single service item-->
+            <div class="single-service-item bg-one">
+                <div class="icon-holder">
+                    <span class="flaticon-upload"></span>
+                    <div class="overlay-icon">
+                        <span class="flaticon-upload"></span>
+                    </div>
+                </div>
+                <div class="text-holder">
+                    <h3><a href="service-single.html">Organization</a></h3>
+                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally.</p>
+                    <a class="readmore" href="service-single.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!--Start single service item-->
+        </div>
+    </div>
+</section>
+<!--End services area-->
+
+<!--Start project area-->
+<section class="latest-project-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec-title">
+                    <span>Our Cases</span>
+                    <div class="border"></div>
+                    <h1>Projects</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="left-content">
+                    <h3>Our projects will take you a next level.</h3>
+                    <p>Nor again is there anyone who loves or pursues or desire to obtain pain of itself, because it is pain, but because occasionally circumstances.</p>
+                    <a href="#">For Enquiry<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+                <div class="right-content">
+                    <div class="projects-carousel owl-nav-style-one">
+                        <!--Start single project item-->
+                        <div class="single-project-item">
+                            <div class="img-holder">
+                                <img src="images/projects/latest-project-1.jpg" alt="Awesome Image">
+                                <div class="static-overlay">
+                                    <h3><a href="#">Huong Xua</a></h3>
+                                    <span>Restaurant</span>
+                                </div>
+                                <div class="overlay">
+                                    <div class="content">
+                                        <h3><a href="#">Huong Xua Restaurant</a></h3>
+                                        <span>Finance</span>
+                                        <p>Huong Xua restaurant is located in Anjou, in the Eastern part of Montreal. With more than 30 years of experience in various Vietnamese restaurants. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single project item-->
+                        <!--Start single project item-->
+                        <div class="single-project-item">
+                            <div class="img-holder">
+                                <img src="images/projects/latest-project-2.jpg" alt="Awesome Image">
+                                <div class="static-overlay">
+                                    <h3><a href="#">Spa Groomtopia</a></h3>
+                                    <span>Pet salon</span>
+                                </div>
+                                <div class="overlay">
+                                    <div class="content">
+                                        <h3><a href="#">Spa Groomtopia</a></h3>
+                                        <span>Finance</span>
+                                        <p>Spa Groomtopia is a professional grooming salon owned and operated by a groomer who has many years of experience, endless passion for animals and the ability to offer a carefully personalised approach to each pooch or kitty.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single project item-->
+                        <!--Start single project item-->
+                        <div class="single-project-item">
+                            <div class="img-holder">
+                                <img src="images/projects/latest-project-3.jpg" alt="Awesome Image">
+                                <div class="static-overlay">
+                                    <h3><a href="#">Darchi Systems</a></h3>
+                                    <span>Manufacturing systems</span>
+                                </div>
+                                <div class="overlay">
+                                    <div class="content">
+                                        <h3><a href="#">Darchi Systems</a></h3>
+                                        <span>Finance</span>
+                                        <p>Darchi Systems offers a wide variety of design services to take your product from idea to market reality. They have experience in conceptual development from the initial design brief to ensure an optimum user ‘fit’ of the final product.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single project item-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End project area-->
+
+<!--Start video gallery area-->
+<section class="video-gallery-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="featured-content-box flex-box text-center">
+                    <!--Start single featured box-->
+                    <div class="single-featured-box bg-one">
+                        <div class="icon-holder">
+                            <span class="flaticon-clock"></span>
+                        </div>
+                        <div class="text-holder">
+                            <h3>On Time Service</h3>
+                            <p>We are experts in industry with over 3 years of experience. What that means you are get right solution, experts.</p>
+                        </div>
+                    </div>
+                    <!--End single featured box-->
+                    <!--Start single featured box-->
+                    <div class="single-featured-box bg-two">
+                        <div class="icon-holder">
+                            <span class="flaticon-people-1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Experienced Team</h3>
+                            <p>Advanced Analytics is an unique add-on service  offering the SFinancewhich enables you to work trends organization.</p>
+                        </div>
+                    </div>
+                    <!--End single featured box-->
+                    <!--Start single featured box-->
+                    <div class="single-featured-box bg-three">
+                        <div class="icon-holder">
+                            <span class="flaticon-chart-1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Analyze Your Business</h3>
+                            <p>Is an interprtation of trends in human behaviors which aims to increase effectiveness of a sed service for the consumer.</p>
+                        </div>
+                    </div>
+                    <!--End single featured box-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-galley-content parallax-bg-one" style="background-image:url(images/parallax-background/video-gallery-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--Start customer feedback -->
+                    <section class="customer-feedback">
+                        <div class="container">
+                            <div class="sec-title text-center">
+                                <span class="color-2">Testimonials</span>
+                                <div class="border center color-2"></div>
+                                <h1>Customer Feedback</h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="slider-pager">
+                                        <ul class="thumb-box style2">
+                                            <li>
+                                                <a class="active" data-slide-index="0" href="#">
+                                                    <div class="img-holder">
+                                                        <img src="images/testimonial/feedback-1.jpg" alt="Awesome Image">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="1" href="#">
+                                                    <div class="img-holder">
+                                                        <img src="images/testimonial/feedback-2.jpg" alt="Awesome Image">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="2" href="#">
+                                                    <div class="img-holder">
+                                                        <img src="images/testimonial/feedback-3.jpg" alt="Awesome Image">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="3" href="#">
+                                                    <div class="img-holder">
+                                                        <img src="images/testimonial/feedback-4.jpg" alt="Awesome Image">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <ul class="bxslider">
+                                        <li>
+                                            <div class="single-testimonial-content clearfix">
+                                                <div class="text-box pull-left">
+                                                    <p>The vendor crafted an accessible, visually appealing website viewable on a desktop or mobile device. The specialists were highly responsive to questions, and they were eager to help their clients succeed. They're a personable, attentive group that excelled at teaching the stakeholders new concepts.</p>
+                                                </div>
+                                                <div class="name-box pull-right">
+                                                    <h4>Anna Luu-Nguyen</h4>
+                                                    <p>Huong Xua Restaurant</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-testimonial-content clearfix">
+                                                <div class="text-box pull-left">
+                                                    <p>Vanntechs Web Studio’s efforts have been met with positive acclaim. Motivated and professional, customers can expect fast-paced, high quality, site design.</p>
+                                                </div>
+                                                <div class="name-box pull-right">
+                                                    <h4>Juliana Erimina</h4>
+                                                    <p>Spa Groomtopia</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-testimonial-content clearfix">
+                                                <div class="text-box pull-left">
+                                                    <p>Vanntechs Web Studio has received positive feedback on their work. Providing quick turnaround, they had great project management skills and the responded quickly. They delivered exactly what was needed efficiently.</p>
+                                                </div>
+                                                <div class="name-box pull-right">
+                                                    <h4>Carlos A Morales</h4>
+                                                    <p>Cart Ninja</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-testimonial-content clearfix">
+                                                <div class="text-box pull-left">
+                                                    <p>The client is happy with their updated platform. Vanntechs Web Studio maintained a professional, quick workflow throughout the engagement. </p>
+                                                </div>
+                                                <div class="name-box pull-right">
+                                                    <h4>Diamond Ngo</h4>
+                                                    <p>PU Rattan</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="slider-pager">
+                                        <div class="center">
+                                            <ul class="nav-link list-inline">
+                                                <li id="slider-prev"></li>
+                                                <li id="slider-next"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--End customer feedback -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End video gallery area-->
+
+<!--Start Faq Appointment area-->
+<section class="faq-appointment-area sec-pd-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <div class="faq-content-box">
+                    <div class="sec-title">
+                        <span>Clarify Your Doubts</span>
+                        <div class="border"></div>
+                        <h1>Answers For Questions</h1>
+                    </div>
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>How to purchase infocus theme?</h4></div>
+                            <div class="accord-content">
+                                <p>Over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every sed level of their organization we can be most useful.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active"><h4>What are the main features of infocus?</h4></div>
+                            <div class="accord-content collapsed">
+                                <p>Over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every sed level of their organization we can be most useful.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>Wanna talk to our experts?</h4></div>
+                            <div class="accord-content">
+                                <p>Over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every sed level of their organization we can be most useful.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn"><h4>What is the procedure to join with us?</h4></div>
+                            <div class="accord-content">
+                                <p>Over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every sed level of their organization we can be most useful.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <div class="appointment-box">
+                    <div class="sec-title">
+                        <span>For Enquiry</span>
+                        <div class="border"></div>
+                        <h1>Make an Appointment</h1>
+                    </div>
+                    <form class="appointment-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="form_name" value="" placeholder="Your Name*" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="form_email" value="" placeholder="Email*" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="form_phone" value="" placeholder="Phone Number">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="form_subject" value="" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="form_message" placeholder="Message*" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="thm-btn" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--End Faq Appointment area-->
+
+<!--Start latest blog area-->
+<section class="latest-blog-area sec-pd-one">
+    <div class="container">
+        <div class="sec-title">
+            <span>Our News</span>
+            <div class="border"></div>
+            <h1>Latest From Blog</h1>
+        </div>
+        <div class="row">
+            <!--Start single latest blog-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-blog-post">
+                    <div class="img-holder">
+                        <img src="images/blog/lat-blog-1.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <span>Written By</span>
+                        <ul class="meta-info">
+                            <li><a href="#">Mark Fletcher, 17th Aug 2017</a></li>
+                        </ul>
+                        <h3><a class="blog-title" href="blog-single.html">Tips for successfull business</a></h3>
+                        <div class="text">
+                            <p>Rationally encounter consequences seds utthat are extremely painful nore us again were anyone who loves desires.</p>
+                        </div>
+                        <div class="readmore">
+                            <a href="blog-single.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest blog-->
+            <!--Start single latest blog-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-blog-post">
+                    <div class="img-holder">
+                        <img src="images/blog/lat-blog-2.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <span>Written By</span>
+                        <ul class="meta-info">
+                            <li><a href="#">Daniel Martin, 21st May 2017</a></li>
+                        </ul>
+                        <h3><a class="blog-title" href="blog-single.html">Improve your employee skills</a></h3>
+                        <div class="text">
+                            <p>Pursues or desires to obtain pain of itself because it is pain, but because occasionally can procure great pleasure.</p>
+                        </div>
+                        <div class="readmore">
+                            <a href="blog-single.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest blog-->
+            <!--Start single latest blog-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-blog-post">
+                    <div class="img-holder">
+                        <img src="images/blog/lat-blog-1.jpg" alt="Awesome Image">
+                        <div class="overlay-style-one">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="blog-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <span>Written By</span>
+                        <ul class="meta-info">
+                            <li><a href="#">Venanda Spin, 08th Apr 2017</a></li>
+                        </ul>
+                        <h3><a class="blog-title" href="blog-single.html">Budget hacks for accounting</a></h3>
+                        <div class="text">
+                            <p>To take a trivial example, which of us ever undertake laborious physical exercise sed except to obtain some advantage.</p>
+                        </div>
+                        <div class="readmore">
+                            <a href="blog-single.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest blog-->
+        </div>
+    </div>
+</section>
+<!--End latest blog area-->
+
+<!--Start footer area-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!--Start single footer widget-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="single-footer-widget mar-btm">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="images/footer/footer-logo.png" alt="Awesome Footer Logo">
+                        </a>
+                    </div>
+                    <div class="our-info">
+                        <div class="text">
+                            <p>Over 7 years experience knowledge on web development and bug fixing, we are dedicated to provide the best customer experience possible.</p>
+                        </div>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-technology"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5>+123-456-7890 & 23</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-note"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5>Vanntechswebstudio@gmail.com</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-signs"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5>Montreal,QC,Canada</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="footer-social-links socialicon-style-two">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="single-footer-widget mar-lft mar-btm">
+                    <div class="title">
+                        <h3>Usefull Links</h3>
+                        <span class="border"></span>
+                    </div>
+                    <ul class="usefull-links">
+                        <li><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
+                        <li><a href="faq.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Customer FAQ’s</a></li>
+                        <li><a href="testimonials.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Testimonials</a></li>
+                        <li><a href="packages-pricing.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Package & Pricing</a></li>
+                        <li><a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a></li>
+                        <li><a href="project.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Latest Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Start single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="single-footer-widget martop">
+                    <div class="title">
+                        <h3>Subscribe Us</h3>
+                        <span class="border"></span>
+                    </div>
+                    <div class="newsletter-box">
+                        <p>Sign up today for hints, tips and the<br>latest product news</p>
+                        <form class="newsletter-form" action="#">
+                            <input placeholder="Email Address" type="text">
+                            <div class="envelope">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <button type="submit">Send Now</button>
+                        </form>
+                        <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 09.00am to 17.00pm<br>Sat-Sunday: Closed</h5>
+                    </div>
+                </div>
+            </div>
+            <!--End single footer widget-->
+        </div>
+    </div>
+</footer>
+<!--End footer area-->
+
+<!--Start footer bottom area-->
+<section class="footer-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-bottom">
+                    <div class="copyright-text pull-left">
+                        <p>Copyrights © 2023 All Rights Reserved by <a href="#">Vanntechs Web Studio</a>.</p>
+                    </div>
+                    <div class="footer-menu pull-right">
+                        <ul>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End footer bottom area-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!-- main jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Wow Script -->
+<script src="js/wow.min.js"></script>
+<!-- bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- bx slider -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- count to -->
+<script src="js/jquery.countTo.js"></script>
+<!-- owl carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- validate -->
+<script src="js/validation.js"></script>
+<!-- mixit up -->
+<script src="js/jquery.mixitup.min.js"></script>
+<!-- easing -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- gmap helper -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+<!--gmap script-->
+<script src="js/gmaps.js"></script>
+<script src="js/map-helper.js"></script>
+<!-- video responsive script -->
+<script src="js/jquery.fitvids.js"></script>
+<!-- jQuery ui js -->
+<script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+<!-- Language Switche  -->
+<script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+<!-- fancy box -->
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.appear.js"></script>
+<!-- isotope script-->
+<script src="js/isotope.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<!-- jQuery timepicker js -->
+<script src="assets/timepicker/timePicker.js"></script>
+<!-- Bootstrap select picker js -->
+<script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+<script src="assets/html5lightbox/html5lightbox.js"></script>
+
+<!-- revolution slider js -->
+<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+<!-- thm custom script -->
+<script src="js/custom.js"></script>
+
+
+
+
+
+
 </body>
 </html>
