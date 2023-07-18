@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR inFocus           |||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||       MASTER STYLESHEET FOR Vanntechs           |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -78,6 +78,12 @@
 @import url(../assets/bootstrap-sl-1.12.1/bootstrap-select.css);
 /*** Language Switcher ***/
 @import url(../assets/language-switcher/polyglot-language-switcher.css);
+@font-face {
+    font-family: "Mangolaine";
+    src: url(../fonts/mangolaine/mangolaine-webfont.woff2);
+    src: url(../fonts/mangolaine/mangolaine-webfont.woff) format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+}
 
 
 
@@ -90,8 +96,8 @@
 html,
 body { height: 100% }
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-family: 'Poppins', serif;
+    font-size: 14px;
     color: #1e1e1e;
     line-height: 26px;
     font-weight: 400;
@@ -106,7 +112,7 @@ button {
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mangolaine', serif;
     font-weight: 500;
     margin: 0;
 }
@@ -149,19 +155,17 @@ li {
 
 .thm-btn {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     display: inline-block;
     padding: 18px 30px 18px;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    transition: all 500ms ease;
     line-height: 14px;
     position: relative;
-    background: #f87845;
-    color: #ffffff;
+    background: #f8f7f3;
+    color: #646464;
 }
 .thm-btn:hover{
-    background: #f87845;
+    background: #575757;
     color: #fff;
 }
 .thm-btn.btn-style-two{
@@ -184,7 +188,7 @@ li {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mangolaine', serif;
     display: block;
 }
 .sec-title span.color-2{
@@ -276,7 +280,7 @@ li {
     margin-left: 10px;
 }
 .owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover{
-    border-color: #47588f;
+    border-color: #9d9898;
     color: #47588f;
 }
 
@@ -311,9 +315,9 @@ li {
 	top:0px;
 	width:100%;
 	padding:0px 0px;
-	background: #f87845;
+	background: #f8f7f3;
 	z-index: 0;
-	border-bottom:1px solid #f87845;
+	border-bottom:1px solid #afafaf;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -340,7 +344,7 @@ li {
     transition: all .25s ease-in-out;
 }
 .sticky-header .main-menu .navigation li a {
-    color: #ffffff;
+    color: #646464;
     padding: 38px 0;
 }
 .sticky-header .main-menu .navigation li ul li a{
@@ -418,13 +422,13 @@ select:focus {
     padding: 14px 0;
     transition: all 500ms ease 0s;
     width: 55px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mangolaine', serif;
     border-radius: 3px;
 }
 .post-pagination li.active a, .post-pagination li:hover a {
-    background: #47588f;
+    background: #f8f7f3;
     color: #fff;
-    border: 1px solid #47588f;
+    border: 1px solid #f8f7f3;
 }
 
 
@@ -560,7 +564,6 @@ select:focus {
     z-index: 1;
 }
 .parallax-bg-one::before {
-    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -575,12 +578,13 @@ select:focus {
     Top bar Area Css
 ===============================================*/
 .top-bar-area {
-    background: #ec814d;
+    background: #f8f7f3;
     padding: 11px 0;
+    border-bottom: 1px solid #afafaf;
 }
 .top-left { }
 .top-left p {
-    color: #ffffff;
+    color: #646464;
     margin: 0;
 }
 .top-menu {
@@ -590,21 +594,21 @@ select:focus {
     display: inline-block;
     float: left;
     line-height: 20px;
-    border-right: 1px solid #5569aa;
+    border-right: 1px solid #646464;
     padding: 0 15px;
 }
 .top-menu li:last-child{
     border-right: 0px solid;
 }
 .top-menu li a {
-    color: #ffffff;
+    color: #646464;
     transition: all 500ms ease;
 }
 .top-menu li a:hover{
-    color: #47588f;
+    color: #252525;
 }
 .language-switcher{
-    border: 1px solid #5569aa;
+    border: 1px solid #646464;
     width: 120px;
     padding-left: 10px;
 }
@@ -711,7 +715,10 @@ select:focus {
     margin-left: 10px;
 }
 
-.header-lower { }
+.header-lower {
+    border-bottom: 1px solid #afafaf
+}
+
 .header-lawer-content{
     display: flex;
     justify-content: space-between;
@@ -719,8 +726,10 @@ select:focus {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .header-lawer-content .logo a {
     display: inline-block;
+    margin-left: -100px;
 }
 
 .header-lower-right {
@@ -729,7 +738,7 @@ select:focus {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: -161px;
+    margin-right: -500px;
 }
 .main-menu {
     float: left;
@@ -759,20 +768,19 @@ select:focus {
 }
 .main-menu .navigation li a {
     position: relative;
-    color: #f87845;
+    color: #646464;
     display: block;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 14px;
-    text-transform: uppercase;
     opacity: 1;
     padding: 43px 0px;
     transition: all 300ms ease;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mangolaine', serif;
 }
 .main-menu .navigation > li:hover > a, 
 .main-menu .navigation > li.current > a {
-    color: #47588f;
+    color: #f87845;
     opacity: 1;
 }
 
@@ -1005,8 +1013,8 @@ select:focus {
     position: relative;
     z-index: 10;
     margin-top: -156px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    max-height: 680px;
+    border-top: 1px solid #646464;
 }
 
 .rev_slider_wrapper .tp-caption{
@@ -1017,40 +1025,38 @@ select:focus {
 }
 
 .rev_slider_wrapper .slide-content{
-    border-left: 3px solid #47588f;
+    border-left: 3px solid #575757;
     padding-left: 30px;
     padding-bottom: 5px;
 }
 .rev_slider_wrapper .slide-content .title{
     position: relative;
-    color: #f87845;
-    font-size: 36px;
+    color: #ff966c;
+    font-size: 26px;
     font-weight: 500;
-	font-family: 'Poiret One', sans-serif;
-    font-style: italic;
+	font-family: 'Mangolaine', serif;
 	line-height: 1.0em;
     margin-bottom: 10px;
 }
 .rev_slider_wrapper .slide-content .big-title{
 	position: relative;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 60px;
-	color: #222222;
+	color: #4b4b4b;
 	line-height: 1.2em;
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Mangolaine', serif;
     margin: 0 0 7px;
 }
 .rev_slider_wrapper .slide-content .text{
 	position: relative;
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 15px;
+	font-weight: 200;
 	color: #222222;
-	line-height: 1.6em;
-    font-style: italic;
-    font-family: 'Poiret One', sans-serif;
+	line-height: 1.4em;
+    font-family: 'Poppins', sans-serif;
 }
 .rev_slider_wrapper .slide-content .btns-box{
-    margin-top: 21px;
+    margin-top: 20px;
 }
 .rev_slider_wrapper .slide-content .btns-box a.thm-btn.pdone{
     padding: 20.5px 45px 20.5px;
@@ -1061,7 +1067,7 @@ select:focus {
 }
 
 .tparrows {
-    background: rgba(73, 88, 143, .50);
+    background: #f87845;
     cursor: pointer;
     display: block;
     height: 55px;
@@ -1081,7 +1087,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .tparrows:hover{
-    background:#47588f;
+    background: #f87845;
 }
 .tparrows:hover:before{
     color: #ffffff;    
@@ -1199,6 +1205,7 @@ select:focus {
     padding-top: 90px;
     background: #f4f4f4;
     position: relative;
+    border-bottom: 1px solid #afafaf;
 }
 .services-area .flex{
     display: flex;
@@ -1297,7 +1304,7 @@ select:focus {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .fact-counter-area:before {
-    background: url(images/resources/fact-counter-bg.jpg) none repeat scroll 0 0;
+    background: #f8f7f3 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -1321,7 +1328,7 @@ select:focus {
 }
 .single-fact-counter .icon-holder{}
 .single-fact-counter .icon-holder span:before{
-    color: #e1e1e1;
+    color: #646464;
     font-size: 60px;
     line-height: 60px;
 }
@@ -1334,7 +1341,7 @@ select:focus {
     line-height: 55px;
 }
 .single-fact-counter h1 span {
-    color: #e1e1e1;
+    color: #646464;
     font-size: 72px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -1518,7 +1525,6 @@ select:focus {
 ***/
 .video-gallery-area{
     position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .featured-content-box {
     position: relative;
@@ -2179,7 +2185,7 @@ box-shadow: 0px 2px 10px 0px rgba(242,242,242,1);
 ***/
 .footer-area {
     position: relative;
-    background-image: url(../images/resources/footer-bg.jpg);
+    background: #303030;
     padding: 70px 0 65px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -2229,6 +2235,7 @@ box-shadow: 0px 2px 10px 0px rgba(242,242,242,1);
     font-weight: 400;
     line-height: 24px;
     font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
 .single-footer-widget .footer-social-links {
     overflow: hidden;

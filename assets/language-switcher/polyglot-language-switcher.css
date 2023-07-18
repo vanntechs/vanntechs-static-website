@@ -18,7 +18,7 @@
 }
 
 #polyglotLanguageSwitcher {
-	color: #fff !importent;
+	color: #646464 !importent;
 	line-height: normal;
 	position: relative; /* sets the initial position for the drop-down menu */	
 }
@@ -36,7 +36,7 @@
   padding: 5px 0px 5px 32px;
   background-repeat: no-repeat;
   background-position: 1px center;
-  color: #fff;
+  color: #646464;
   transition: all 500ms ease;
 }
 
@@ -62,7 +62,7 @@
   content: '\f107';
   font-family: FontAwesome;
   position: absolute;
-  color:#fff;
+  color:#646464;
   top:-1px;
   right:-32px;
 }
@@ -82,8 +82,8 @@
 	border-top: none !important;
 	border-radius: 0 0 0px 0px;
 	z-index: 99999999999999999999999;
-	background: #f87845;
-    border-top: 1px solid #f0f0f0;
+	background: #f8f7f3;
+    border-top: 1px solid #646464;
 }
 
 #polyglotLanguageSwitcher ul.dropdown li {
@@ -110,7 +110,7 @@
 	border-radius: 0 0 3px 3px;
 }
 #polyglotLanguageSwitcher ul.dropdown li:hover a {
-	color: #141414;
+	color: #f87845;
 }
 
 /* Flags */
