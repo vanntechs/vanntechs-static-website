@@ -5093,8 +5093,8 @@ box-shadow: 0px 2px 10px 0px rgba(242,242,242,1);
 .contact-form form button {
     width: 100%;
     padding: 23px 0 23px;
-    background: #47588f;
-    color: #fff;
+    background: #f8f7f3;
+    color: #646464;
     cursor: pointer;
 }
 .contact-form form button:hover{
