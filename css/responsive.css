@@ -1334,7 +1334,7 @@
     
     
 .main-menu .navbar-collapse > .navigation {
-  background: #5568a5;
+  background: #f8f7f3;
   float: none !important;
   margin: 0 !important;
   width: 100% !important;
@@ -1393,7 +1393,7 @@
 .main-menu .navbar-collapse > .navigation > li,
 .main-menu .navbar-collapse > .navigation > li > ul > li,
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li{
-    border-top: 1px solid #3c4e88 !important;
+    border-top: 1px solid #646464 !important;
     opacity:1 !important;
     top:0px !important;
     left:0px !important;
@@ -1404,15 +1404,15 @@
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a {
     padding: 10px 10px !important;
     line-height: 22px;
-    color: #ffffff;
-    background: #47588f;
+    color: #646464;
+    background: #f8f7f3;
     text-align: left; 
 }
 .main-menu .navbar-collapse .navigation li ul li a{
     padding: 10px 20px !important;
     line-height: 22px;
-    color: #ffffff;
-    background: #47588f;
+    color: #646464;
+    background: #f8f7f3;
     text-align: left;
     font-size: 13px;
     font-weight: 600;
