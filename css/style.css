@@ -866,7 +866,7 @@ select:focus {
 }
 .main-menu .navigation > li > ul > li:hover > a {
     color: #fff;
-    background-color: #47588f;
+    background-color: #f87845;
 }
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
     position: absolute;
